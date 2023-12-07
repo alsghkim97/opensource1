@@ -37,6 +37,8 @@ tryButton.place(x=377,y=300)
 resetButton = Button(f1,text="초기화",fg="red",bg="white")
 resetButton.place(x=413,y=300)
 
+hintButton = Button(f1,text="힌트",fg="blue",bg="white")
+hintButton.place(x=461,y=300)
 
 
 f1.pack(fill="both",expand=True)
